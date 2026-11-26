@@ -4,9 +4,12 @@ This is my work in progress for Kaggle's [Spaceship Titanic competition](https:/
 
 ## Open the notebook
 
-1. Download the competition data from [Kaggle](https://www.kaggle.com/competitions/spaceship-titanic/data) and place `train.csv` beside the notebook.
-2. Open [spaceship_titanic.ipynb](spaceship_titanic.ipynb) in VS Code with the Python and Jupyter extensions.
-3. Select a Python kernel with `pandas` installed and run the data-loading cell.
+1. Open [spaceship_titanic.ipynb](spaceship_titanic.ipynb) in VS Code with the Python and Jupyter extensions.
+2. Select a Python kernel with `pandas` installed and run the data-loading cell.
+
+## Data
+
+The repository includes `train.csv`, `test.csv`, and `sample_submission.csv` from the [Kaggle Spaceship Titanic competition dataset](https://www.kaggle.com/competitions/spaceship-titanic/data), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## What I'm exploring
 
