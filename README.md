@@ -5,7 +5,15 @@ This is my work in progress for Kaggle's [Spaceship Titanic competition](https:/
 ## Open the notebook
 
 1. Open [spaceship_titanic.ipynb](spaceship_titanic.ipynb) in VS Code with the Python and Jupyter extensions.
-2. Select a Python kernel with `pandas` installed and run the data-loading cell.
+2. Select a Python kernel with `pandas` installed and run the cells from top to bottom.
+
+## Preprocessing
+
+1. Fill one or two missing charges with zero when all recorded charges for that passenger are zero. The five spending fields are RoomService, FoodCourt, ShoppingMall, Spa, and VRDeck.
+2. Add the five charges to calculate `Total_Spend`.
+3. Fill missing `CryoSleep` values with `False` when any recorded charge is positive and with `True` when `Total_Spend` is zero. Keep the original `CryoSleep` values.
+
+The notebook prints the remaining missing `CryoSleep` count and writes `null_inspection.csv` for inspection.
 
 ## Data
 
